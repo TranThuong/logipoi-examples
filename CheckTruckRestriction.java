@@ -11,7 +11,7 @@
  *   - Java 11+ (uses java.net.http.HttpClient and java.net.http.HttpRequest)
  *   - No external dependencies
  *
- * Get your free API key at: https://rapidapi.com/logipoi/api/logipoi
+ * Get your free API key at: https://rapidapi.com/tranthuongtien/api/logipoi
  */
 
 import java.net.URI;
@@ -50,7 +50,7 @@ public class CheckTruckRestriction {
         String apiKey = System.getenv("RAPIDAPI_KEY");
         if (apiKey == null || apiKey.isBlank()) {
             System.err.println("Error: RAPIDAPI_KEY environment variable is not set.");
-            System.err.println("Get your free key at: https://rapidapi.com/logipoi/api/logipoi");
+            System.err.println("Get your free key at: https://rapidapi.com/tranthuongtien/api/logipoi");
             System.exit(1);
         }
 

@@ -46,7 +46,7 @@ FENCED_SECURITY_LEVEL = "FENCED"
 api_key = os.environ.get("RAPIDAPI_KEY")
 if not api_key:
     print("Error: RAPIDAPI_KEY environment variable is not set.")
-    print("Get your free key at: https://rapidapi.com/logipoi/api/logipoi")
+    print("Get your free key at: https://rapidapi.com/tranthuongtien/api/logipoi")
     sys.exit(1)
 
 args = sys.argv[1:]

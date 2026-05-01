@@ -13,7 +13,7 @@
 
 Real-time gas stations, truck parking, and truck restrictions — sourced from OpenStreetMap + official government data (Prix Carburants FR, Tankerkoenig DE, MITECO ES).
 
-> Get your free API key on [RapidAPI → LogiPOI](https://rapidapi.com/logipoi/api/logipoi)
+> Get your free API key on [RapidAPI → LogiPOI](https://rapidapi.com/tranthuongtien/api/logipoi)
 
 ---
 
@@ -104,7 +104,7 @@ Data is refreshed daily. Prices are updated in near-real-time where the source a
 
 ## Get a free API key
 
-1. Go to [RapidAPI → LogiPOI](https://rapidapi.com/logipoi/api/logipoi)
+1. Go to [RapidAPI → LogiPOI](https://rapidapi.com/tranthuongtien/api/logipoi)
 2. Click **Subscribe to Test**
 3. Choose the **Free** plan (no credit card required)
 4. Copy your `X-RapidAPI-Key` from the dashboard

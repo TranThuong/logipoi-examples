@@ -46,7 +46,7 @@ if (isNaN(lat) || isNaN(lon)) {
 
 if (!API_KEY) {
   console.error("Error: RAPIDAPI_KEY environment variable is not set.");
-  console.error("Get your free key at: https://rapidapi.com/logipoi/api/logipoi");
+  console.error("Get your free key at: https://rapidapi.com/tranthuongtien/api/logipoi");
   process.exit(1);
 }
 
