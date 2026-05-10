@@ -13,7 +13,9 @@
 
 Real-time gas stations, truck parking, and truck restrictions — sourced from OpenStreetMap + official government data (Prix Carburants FR, Tankerkoenig DE, MITECO ES).
 
-> Get your free API key on [RapidAPI → LogiPOI](https://rapidapi.com/tranthuongtien/api/logipoi)
+> **Try the live demo →** [app.logipoi.com/app](https://app.logipoi.com/app) — interactive map of every POI returned by the API
+>
+> **Get your free API key →** [app.logipoi.com](https://app.logipoi.com) (direct signup) or [RapidAPI → LogiPOI](https://rapidapi.com/tranthuongtien/api/logipoi)
 
 ---
 
@@ -87,6 +89,19 @@ X-RapidAPI-Key: YOUR_KEY
 X-RapidAPI-Host: logipoi.p.rapidapi.com
 ```
 
+### Direct API access (no RapidAPI account)
+
+If you sign up for an API key directly at [app.logipoi.com](https://app.logipoi.com), point the examples at the direct base URL and swap the header:
+
+**Base URL**: `https://api.logipoi.com`
+
+**Required header**:
+```
+X-Api-Key: YOUR_KEY
+```
+
+The endpoints, parameters, and responses are identical — only the host and the auth header differ.
+
 ---
 
 ## Data Sources
@@ -104,10 +119,18 @@ Data is refreshed daily. Prices are updated in near-real-time where the source a
 
 ## Get a free API key
 
+Two paths — both yield a working FREE-tier key (no credit card required):
+
+**Option A — Direct signup at [app.logipoi.com](https://app.logipoi.com)**
+1. Open the landing page and click **Get API Key**
+2. Fill in name + email and pick the **FREE** tier
+3. Receive your key by email — use header `X-Api-Key: YOUR_KEY` against `https://api.logipoi.com`
+
+**Option B — RapidAPI marketplace**
 1. Go to [RapidAPI → LogiPOI](https://rapidapi.com/tranthuongtien/api/logipoi)
 2. Click **Subscribe to Test**
-3. Choose the **Free** plan (no credit card required)
-4. Copy your `X-RapidAPI-Key` from the dashboard
+3. Choose the **Free** plan
+4. Copy your `X-RapidAPI-Key` from the dashboard — use it with the example scripts above
 
 ---
 
